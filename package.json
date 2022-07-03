@@ -1,0 +1,36 @@
+{
+    "name": "test-websockets",
+    "version": "1.0.0",
+    "description": "Test repo for testing websockets",
+    "main": "./build/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./build/index.js",
+        "build": "tsc",
+        "dev": "nodemon ./src/index.ts"
+    },
+    "keywords": [
+        "websockets"
+    ],
+    "author": "Tom Johnsen",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tom-johnsen/test-websockets.git"
+    },
+    "bugs": {
+        "url": "https://github.com/tom-johnsen/test-websockets/issues"
+    },
+    "homepage": "https://github.com/tom-johnsen/test-websockets#readme",
+    "dependencies": {
+        "express": "^4.16.3",
+        "helmet": "^5.1.0",
+        "http-errors": "^2.0.0",
+        "mongoose": "^5.0.0"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/http-errors": "^1.8.2",
+        "dotenv": "^16.0.1"
+    }
+}
